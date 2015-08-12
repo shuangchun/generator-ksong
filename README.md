@@ -1,0 +1,5 @@
+# ksofe-generator
+
+## License
+
+MIT
