@@ -1,6 +1,6 @@
 {
   "name": "generator-ksong",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yeoman generator for KingSoft Office Webapp FrontEnd",
   "license": "MIT",
   "main": "app/index.js",
