@@ -13,6 +13,8 @@ npm install -g generator-ksong
 yo ksong [app-name]
 
 ``` 
+If after step3 has some error,
+you can use command `sudo npm install` and `bower install`
 
 ## License
 
