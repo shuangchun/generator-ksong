@@ -5,8 +5,8 @@
         .module('app.layout')
         .controller('ShellController', ShellController);
 
-        ShellController.$inject = ['
-            $rootScope',
+        ShellController.$inject = [
+            '$rootScope',
             '$timeout',
             'config',
             'logger'
