@@ -27,7 +27,7 @@ module.exports = function() {
         build: './build/',
         client: client,
         css: temp + 'styles.css',
-        fonts: bower.directory + 'font-awesome/fonts/**/*.*',
+        fonts: client + '/fonts/*.*',
         html: client + '**/*.html',
         htmltemplates: clientApp + '**/*.html',
         images: client + 'images/**/*.*',
@@ -122,7 +122,7 @@ module.exports = function() {
          * Node settings
          */
         nodeServer: server + 'app.js',
-        defaultPort: '8001'
+        defaultPort: '3002'
     };
 
     /**

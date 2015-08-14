@@ -1,28 +1,26 @@
 var router = require('express').Router();
-var four0four = require('./utils/404')();
 var data = require('./data');
 
-router.get('/people', getPeople);
-router.get('/person/:id', getPerson);
-router.get('/*', four0four.notFoundMiddleware);
+router.get('/example', getExample);
+router.get('/example/:id', getExampleId);
 
 module.exports = router;
 
-//////////////
+// Designed for front-end development
 
-function getPeople(req, res, next) {
+function getExample(req, res, next) {
     res.status(200).send(data.people);
 }
 
-function getPerson(req, res, next) {
+function getExampleId(req, res, next) {
     var id = +req.params.id;
-    var person = data.people.filter(function(p) {
+    var example = data.example.filter(function(p) {
         return p.id === id;
     })[0];
 
-    if (person) {
-        res.status(200).send(person);
+    if (example) {
+        res.status(200).send(example);
     } else {
-        four0four.send404(req, res, 'person ' + id + ' not found');
+        res.status(200).send('NOT FOUND THIS ID');
     }
 }

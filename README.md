@@ -1,20 +1,35 @@
 # generator-ksong
 
-How to install
+## How to install
 
 ``` 
-// step 1 install yeoman
+// step-1 install yeoman
 npm install yo
 
-// step 2 install this package
+// step-2 install this package
 npm install -g generator-ksong
 
-// step 3 yo genertaor this project
+// step-3 yo genertaor this project
 yo ksong [app-name]
 
 ``` 
-If after step3 has some error,
+If after step-3 has some error,
 you can use command `sudo npm install` and `bower install`
+
+## How to start develop Webapp
+
+```
+// development mode
+gulp serve-dev
+
+// debug mode
+gulp serve-build
+
+// build mode
+gulp build
+```
+
+If you found some bugs, please conatct s#manyan.cn
 
 ## License
 
