@@ -8,7 +8,7 @@
     directiveExample.$inject = [
       'config'
     ];
-    
+
     /* @ngInject */
     function directiveExample (config) {
         /* More code */

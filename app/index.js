@@ -80,6 +80,7 @@ var KsoNgFEGenerator = generators.Base.extend({
     appFiles: function () {
         this.directory('src/client/app');
         this.directory('src/client/images');
+        this.directory('src/client/fonts');
         this.directory('src/client/styles');
         this.directory('src/client/test-helpers');
 
@@ -89,7 +90,6 @@ var KsoNgFEGenerator = generators.Base.extend({
         this.template('src/server/_data.js', 'src/server/data.js');
         this.template('src/server/_routes.js', 'src/server/routes.js');
         this.directory('src/server/utils');
-        this.copy('src/server/favicon.ico');
     },
 
     projectfiles: function () {

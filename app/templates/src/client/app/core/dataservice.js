@@ -18,7 +18,7 @@
         $q,
         exception,
         logger
-    ){
+    ) {
         var service = {
             getPeople: getPeople,
             getMessageCount: getMessageCount

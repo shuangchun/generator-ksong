@@ -2,15 +2,15 @@
     'use strict';
 
     angular
-        .module('app.layout')
-        .controller('ShellController', ShellController);
+    .module('app.layout')
+    .controller('ShellController', ShellController);
 
-        ShellController.$inject = [
-            '$rootScope',
-            '$timeout',
-            'config',
-            'logger'
-        ];
+    ShellController.$inject = [
+        '$rootScope',
+        '$timeout',
+        'config',
+        'logger'
+    ];
 
     /* @ngInject */
     function ShellController(

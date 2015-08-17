@@ -2,8 +2,8 @@
     'use strict';
 
     angular
-        .module('app.example')
-        .controller('ExampleController', ExampleController);
+    .module('app.example')
+    .controller('ExampleController', ExampleController);
 
     ExampleController.$inject = ['logger'];
     /* @ngInject */

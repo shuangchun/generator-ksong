@@ -31,6 +31,11 @@ gulp build
 
 If you found some bugs, please conatct s#manyan.cn
 
+## Update logs 2015.8.17
+
+remove karma test,and finish build code.
+
+
 ## License
 
 MIT

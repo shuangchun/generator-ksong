@@ -4,7 +4,6 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var port = process.env.PORT || 3002;
 
